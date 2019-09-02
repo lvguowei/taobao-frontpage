@@ -1,134 +1,285 @@
 @import "reset.css";
 
 @font-face {
-  font-family: "iconfont";
-  src: url("../font/iconfont.eot");
-  src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"),
-    url("../font/iconfont.woff2") format("woff2"),
-    url("../font/iconfont.woff") format("woff"),
-    url("../font/iconfont.ttf") format("truetype"),
-    url("../font/iconfont.svg#iconfont") format("svg");
+    font-family: "iconfont";
+    src: url("../font/iconfont.eot");
+    src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"),
+        url("../font/iconfont.woff2") format("woff2"),
+        url("../font/iconfont.woff") format("woff"),
+        url("../font/iconfont.ttf") format("truetype"),
+        url("../font/iconfont.svg#iconfont") format("svg");
 }
 
 .iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #headMessage li {
-  float: left;
-  line-height: 35px;
-  padding: 0 6px;
-  font-size: 0;
+    float: left;
+    line-height: 35px;
+    padding: 0 6px;
+    font-size: 0;
 }
 
 #headMessage a {
-  color: #6c6c6c;
-  font-size: 12px;
+    color: #6c6c6c;
+    font-size: 12px;
 }
 
 #headMessage a:hover {
-  color: #f40;
+    color: #f40;
 }
 
 #headMessage a.login {
-  color: #f22e00;
+    color: #f22e00;
 }
 
 #headMessage span {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 #headMessage span.arrow {
-  margin-left: 7px;
+    margin-left: 7px;
 }
 
 #headMessage li strong {
-  font-size: 12px;
-  color: #f22e00;
+    font-size: 12px;
+    color: #f22e00;
 }
 
 #headMessage li span.bookmark {
-  color: #9c9c9c;
+    color: #9c9c9c;
 }
 
 #headMessage li.line {
-  font-size: 12px;
-  color: #ddd;
-  padding: 0 5px;
+    font-size: 12px;
+    color: #ddd;
+    padding: 0 5px;
 }
 
 /* head ad */
 
 #headAd {
-  background: #f12f04;
+    background: #f12f04;
 }
 
 #headAd ul {
-  padding-top: 13px;
+    padding-top: 13px;
 }
 
 #headAd li {
-  float: left;
-  width: 209px;
-  height: 75px;
-  margin-right: 10px;
-  padding: 12px 15px 0 15px;
-  box-sizing: border-box;
-  border-radius: 5px;
+    float: left;
+    width: 209px;
+    height: 75px;
+    margin-right: 10px;
+    padding: 12px 15px 0 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 #headAd .go {
-  display: block;
-  padding: 10px 10px 10px 15px;
+    display: block;
+    padding: 10px 10px 10px 15px;
 }
 
 #headAd .go img {
-  height: 80px;
-  width: 80px;
+    height: 80px;
+    width: 80px;
 }
 
 #headAd li.item1 {
-  background: pink no-repeat;
+    background: pink no-repeat;
 }
 
 #headAd li.item2 {
-  background: green no-repeat;
+    background: green no-repeat;
 }
 
 #headAd li.item3 {
-  background: blue no-repeat;
+    background: blue no-repeat;
 }
 
 #headAd li.item4 {
-  background: magenta no-repeat;
+    background: magenta no-repeat;
 }
 
 #headAd li.item5 {
-  background: greenyellow no-repeat;
-  margin-right: 0px;
+    background: greenyellow no-repeat;
+    margin-right: 0px;
 }
 
 #headAd li h3 {
-  font-size: 20px;
-  line-height: 28px;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 #headAd li a {
-  color: #fff;
-  display: block;
+    color: #fff;
+    display: block;
 }
 
 #headAd li p {
-  line-height: 20px;
-  font-size: 14px;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 #headAd li a img {
-  width: 52px;
-  height: 52px;
-  border-radius: 5px;
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
 }
+
+
+/* Head Search */
+
+#headSearch {
+    background-color: #fff;
+    padding: 24px 0 10px 0;
+}
+
+#headSearch h1 a {
+    display: block;
+    width: 190px;
+    height: 58px;
+    background: url(../images/logo.png) center no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#headSearch .code {
+    width: 72px;
+    height: 86px;
+    border: 1px solid #eee;
+    position: relative;
+    margin-right: 110px;
+    text-align: center;
+}
+
+#headSearch .code img {
+    width: 62px;
+    height: 62px;
+}
+
+#headSearch .close {
+    position: absolute;
+    left: -16px;
+    top: -1px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    color: #ddd;
+    cursor: pointer;
+}
+
+#headSearch .search {
+    width: 630px;
+    margin: 0 auto;
+}
+
+#headSearch .searchTab {
+    height: 22px;
+    padding-left: 17px;
+
+}
+
+#headSearch .searchTab li {
+    float: left;
+    width: 53px;
+    line-height: 22px;
+    margin-right: 4px;
+    text-align: center;
+    color: #f40;
+    cursor: pointer;
+}
+
+#headSearch .searchTab li.active {
+    background: pink;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px 6px 0 0;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColrst='#ffff5000', GradientType=1);
+}
+
+#headSearch .searchTab li:hover {
+    background-color: #ffeee5;
+}
+
+#headSearch .searchContent {
+    height: 40px;
+}
+
+#headSearch .searchBox {
+    width: 554px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ff5000;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#headSearch input {
+    width: 490px;
+    height: 36px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+}
+
+#headSearch .placeholder {
+    position: absolute;
+    top: 6px;
+    left: 14px;
+}
+
+
+#headSearch .placeholder span {
+    color: #9c9c9c;
+    vertical-align: 1px;
+}
+
+#headSearch .imgSearch {
+    position: absolute;
+    right: 20px;
+    font-size: 24px;
+    color: #9c9c9c;
+
+}
+
+#headSearch .searchContent button {
+    width: 74px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColrst='#ffff5000', GradientType=1);
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+#headSearch .hotKey {
+    padding-left: 4px;
+    height: 25px;
+    line-height: 25px;
+}
+
+
+#headSearch .hotKey a:hover {
+    color: #f50;
+}
+
+/* nav */
