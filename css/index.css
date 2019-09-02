@@ -283,3 +283,53 @@
 }
 
 /* nav */
+
+#nav h2 {
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #f50;
+}
+
+#nav ul {
+    margin-left: 190px;
+    height: 30px;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColrst='#ffff5000', GradientType=1);
+}
+
+#nav ul li {
+    float: left;
+    line-height: 30px;
+    margin: 0 7px;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    padding: 0 5px;
+}
+
+#nav ul li.size {
+    font-size: 16px;
+}
+
+#nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#nav ul li.line {
+    margin: 0px;
+}
+
+#nav ul li:hover:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 13px;
+    background-image: url(../images/cat.png);
+    top: -11px;
+    left: 50%;
+    margin-left: -12px;
+}
