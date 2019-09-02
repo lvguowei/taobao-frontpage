@@ -345,6 +345,44 @@
     width: 190px;
     height: 522px;
     background: #f12f04;
+    background: #fff;
+    border: 1px solid #ff5000;
+    box-sizing: border-box;
+    border-top: none;
+    padding-top: 5px;
+}
+
+.firstLeft .sideNav li {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 25px;
+    color: #999;
+    transition: background-color 0.3s;
+
+}
+
+.firstLeft .sideNav li a {
+    font-size: 14px;
+
+}
+
+.firstLeft .sideNav li span {
+    font-size: 12px;
+    margin-right: 5px;
+
+}
+
+.firstLeft .sideNav li:hover {
+    background: #ffe4dc;
+    color: #f50;
+}
+
+.firstLeft .sideNav li:hover a {
+    color: #f50;
+}
+
+.firstLeft .sideNav li a:hover {
+    text-decoration: underline;
 }
 
 .img1Box {
